@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #1A360D;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(/resources/images/cozy-home.jpg);
+    box-shadow: inset 0 0 0 100vw hsla(100, 42%, 24%, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar {
+    width: 100%;
+    height: 3rem;
+    background-color: hsla(100, 72%, 24%, 0.6);
+    
+}
+
+.heading {
+    text-align: center;
+    width: 80%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    color: #90C874;
+    border-bottom: 4px solid #62BD35;
+}
+
+h1 span {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: #62BD35;
+    display: block;
+    line-height: 1rem;
+    padding-bottom: 2rem;
+}
+
+.heading h3 {
+    color: #90C874;
+    margin-top: .5rem;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: hsla(100, 72%, 24%, 0.6);
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.nav-bar li {
+    color: #90C874;
+    border: 1px solid #90C874;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+}
+
+.nav-bar li:hover {
+    background-color: #62BD35;
+    color: #203D11;
+}
